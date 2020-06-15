@@ -1,0 +1,10 @@
+h1 {
+    font-family: Arial, serif;
+    color: blue;
+}
+
+#bird-image {
+    background: url('../assets/bird.jpg');
+    width: 220px;
+    height: 329px;
+}
