@@ -14,6 +14,7 @@ function App({imageId, headerText}) {
             <Main text={"Main"}/>
             <Sidebar text={"Sidebar"}/>
             <Footer text={"Footer"}/>
+            <p>Environment: {process.env.NODE_ENV}</p>
         </div>
     );
 }

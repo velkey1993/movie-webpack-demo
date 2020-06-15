@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "start:dev": "webpack-dev-server --open --config webpack.dev.js",
-    "start:prod": "webpack --config webpack.prod.js"
+    "start:prod": "webpack --config webpack.prod.js",
+    "start:env:dev": "webpack --env.NODE_ENV=dev --env.production=false",
+    "start:env:prod": "webpack --env.NODE_ENV=prod --env.production"
   },
   "author": "Máté Velkey",
   "license": "ISC",
